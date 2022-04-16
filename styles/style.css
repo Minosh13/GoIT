@@ -174,9 +174,9 @@ a,a:hover
 .sidebar
 {
     background-color: #1e2939;
-    color: rgba(255, 255, 255, 0.5);
     line-height: 24px;
     font-weight: 400;
+    color: #FFFFFF;
 }
 
 .photo
@@ -189,6 +189,11 @@ a,a:hover
 {
     margin-left: 40px;
     line-height: 14px;
+}
+
+.contact-link
+{
+    color: rgba(255, 255, 255, 0.5);
 }
 
 .skills
@@ -206,7 +211,8 @@ a,a:hover
 
 .skill-content
 {
-    color: #FFFFFF;
+
+    color: rgba(255, 255, 255, 0.5);
     font-weight: 400;
 }
 

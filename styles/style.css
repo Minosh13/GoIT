@@ -124,6 +124,11 @@ a,a:hover
     color: #A8A8A8;
 }
 
+.line 
+{
+    color: #000;
+}
+
 .worklist
 {
     width: 525px;

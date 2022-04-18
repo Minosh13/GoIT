@@ -5,6 +5,8 @@ body
     padding: 0px;
     font-style: normal;
     line-height: 24px;
+    background-color: #F5F7FA;
+
 }
 
 h3
@@ -18,10 +20,6 @@ a,a:hover
     font-size: 14px;
     color: #595959;
     text-decoration: none;
-}
-b 
-{
-    color: #000;
 }
 /* main  */
 .main
@@ -42,12 +40,14 @@ b
     padding-left: 88px;
     background-color: #fff;
     width: 1200px;
+    box-shadow: 6px 6px 20px rgba(0, 0, 0, 0.1);
+    border-radius: 0 10px 10px 0;
 }
 
 /* About styles  */
 .about
 {
-    width: 400px;
+    width: 420px;
     height: 230px;
     filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
 
@@ -83,6 +83,13 @@ b
 .list-items
 {
     margin-left: -25px;
+    color: #595959;
+}
+
+.bracket
+{
+    color: #000;
+    font-weight: 700;
 }
 
 .list-content
@@ -134,6 +141,7 @@ b
 .line 
 {
     color: #000;
+    font-weight: 400;
 }
 
 .worklist
@@ -189,12 +197,15 @@ b
     line-height: 24px;
     font-weight: 400;
     color: #FFFFFF;
+    border-radius: 10px 0 0 10px;
 }
 
 .photo
 {
     margin-top: 40px;
     margin-bottom: 51px;
+    height: 374px;
+    /* width: 370px; */
 }
 
 .contacts
